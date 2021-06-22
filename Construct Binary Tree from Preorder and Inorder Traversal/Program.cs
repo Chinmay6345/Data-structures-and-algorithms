@@ -48,6 +48,36 @@ namespace Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal
             return root;
         }
     }
+    public class Solution
+    {
+
+        public int preIndex = 0;
+        public TreeNode cTree(int[] iin, int[] pre, int iis, int ie)
+        {
+            if (iis > ie) return null;
+            TreeNode root = new TreeNode(pre[preIndex++]);
+
+            int inIndex = iis;
+            for (int i = iis; i <= ie; i++)
+            {
+                if (iin[i] == root.val)
+                {
+                    inIndex = i;
+                    break;
+                }
+            }
+            root.left = cTree(iin, pre, iis, inIndex - 1);
+            root.right = cTree(iin, pre, inIndex + 1, ie);
+            return root;
+        }
+
+
+        public TreeNode BuildTree(int[] preorder, int[] inorder)
+        {
+            int n = inorder.Length;
+            return cTree(inorder, preorder, 0, n - 1);
+        }
+    }
     class Program
     {
         static void Main(string[] args)
