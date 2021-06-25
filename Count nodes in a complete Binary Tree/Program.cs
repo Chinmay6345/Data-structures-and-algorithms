@@ -46,6 +46,14 @@ namespace Count_nodes_in_a_complete_Binary_Tree
         {
             return countNode(root);
         }
+
+        public int RCountNodes(TreeNode root)
+        {
+            if (root == null)
+                return 0;
+            else
+                return 1 + RCountNodes(root.left) + RCountNodes(root.right);
+        }
     }
     class Program
     {
