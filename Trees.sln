@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lowest Common Ancestor of a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterative In-order traversal", "Iterative In-order traversal\Iterative In-order traversal.csproj", "{913A5C31-352A-4B41-97FA-1FE9744F9A4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterative Pre-order traversal", "Iterative Pre-order traversal\Iterative Pre-order traversal.csproj", "{F6E5A759-3485-4E9D-909E-739C934BEF28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{913A5C31-352A-4B41-97FA-1FE9744F9A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913A5C31-352A-4B41-97FA-1FE9744F9A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913A5C31-352A-4B41-97FA-1FE9744F9A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E5A759-3485-4E9D-909E-739C934BEF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E5A759-3485-4E9D-909E-739C934BEF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E5A759-3485-4E9D-909E-739C934BEF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E5A759-3485-4E9D-909E-739C934BEF28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{F7219D7D-61CA-4037-8B2B-5770EBCC5F1E} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{3CDC70E2-38D2-4F02-B34E-AFC039CC381B} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 		{913A5C31-352A-4B41-97FA-1FE9744F9A4F} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
+		{F6E5A759-3485-4E9D-909E-739C934BEF28} = {3EFC7A64-7559-4FA1-AA41-F2F8BB8C169F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A4CBC9B-CFC1-4300-81A9-13D9C0F20D44}
