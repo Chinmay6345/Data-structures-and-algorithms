@@ -19,6 +19,8 @@ namespace Search_in_BST
         }
     }
 
+    //Time Complexity for both O(h)
+    //Space Complexity for Recursion O(h) and O(1) for Iterative
     public static class AppHelper
     {
         public static bool Search(TreeNode root,int x)
